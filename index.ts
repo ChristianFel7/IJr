@@ -29,13 +29,9 @@ function mostrarMenu() {
   0. Sair
   `;
   }
-
 console.log(mostrarMenu());
 var entrada = prompt('Digite a ação desejada: ');
-
 var W = parseInt(entrada, 10);
-
-
 
 switch (W){
     case 1:
